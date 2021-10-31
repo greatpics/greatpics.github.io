@@ -1,4 +1,3 @@
-<script >
     var objetos = new Array(); 
     objetos[0] = "https://i.pinimg.com/originals/5a/3c/1e/5a3c1e3cad90283fa4bc7caf785cd646.jpg";
     objetos[1] = "https://i.pinimg.com/originals/ed/83/5f/ed835fee3fa96615e8aa2c30422868a8.jpg";
@@ -10,4 +9,4 @@
         var azar = Math.floor(Math.random()*objetos.length);
         document.images["imagen"].src = objetos[azar];
     }
-</script>
+
